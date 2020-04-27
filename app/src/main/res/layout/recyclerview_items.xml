@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp">
+
+
+    <RelativeLayout
+        android:id="@+id/container_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/agenda_view_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="ID: 1"
+            android:textColor="#000"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/agenda_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Name: Agenda"
+            android:textColor="#000"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/agenda_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Date: 12/2/2020"
+        android:textColor="#000"
+        android:layout_below="@+id/container_rl"
+        android:textSize="19sp" />
+
+
+</RelativeLayout>
